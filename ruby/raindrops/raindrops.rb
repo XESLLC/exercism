@@ -30,4 +30,13 @@ class Raindrops
       raindrops.uniq.join.gsub(/[357]/, "3"=> 'Pling', "5"=> 'Plang', "7"=> 'Plong')
     end
   end
+
+  # def self.convert(arg)
+  #   output = ''
+  #   output += 'Pling' if arg % 3 == 0
+  #   output += 'Plang' if arg % 5 == 0
+  #   output += 'Plong' if arg % 7 == 0
+  #
+  #   output == '' ? arg.to_s : output
+  # end
 end
